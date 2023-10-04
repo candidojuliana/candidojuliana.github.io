@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+.sobre-container {
+    padding: 80px 200px 40px 200px;
+    margin: auto;
+    background-color: var(--cor00);
+}
+
+.sobre {
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+/* Media Queries para telas maiores */
+@media only screen and (min-width: 768px) {
+    .sobre-container {
+        padding: 80px 200px;
+    }
+}
+
+/* Media Queries para telas menores */
+@media only screen and (max-width: 767px) {
+    .sobre-container {
+        padding: 60px 20px;
+    }
+
+    .redes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

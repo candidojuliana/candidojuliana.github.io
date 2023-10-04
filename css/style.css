@@ -1,0 +1,11 @@
+@import "global/header.css";
+@import "global/global.css";
+@import "global/cores-tipografia.css";
+@import "home/rodape.css";
+
+@import "home/introducao.css";
+@import "home/experiencia.css";
+@import "projetos/projetos.css";
+@import "home/sobre.css";
+@import "contato/contato.css";
+@import "creditos/creditos.css"

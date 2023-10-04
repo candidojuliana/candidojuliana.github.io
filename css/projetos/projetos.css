@@ -1,0 +1,81 @@
+
+#projetos {
+    padding-bottom: 80px;
+}
+
+.projetos {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.projetos > h2 {
+    margin-top: 0;
+}
+
+section {
+    background-color: var(--cor00);
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px 160px 40px 120px;
+    background-color: var(--cor00);
+    margin: auto;
+}
+
+.projeto-container {
+    grid-column: 1;
+    align-self:center;
+}
+
+.projeto-container > h3, p {
+    margin: 24px;
+}
+
+.mockup-container {
+    grid-column: 2;
+}
+
+.mockup-container > img {
+    align-self: flex-start;
+    width: max-content;
+}
+
+.tecnologias {
+    display: flex;
+    margin: 20px;
+}
+
+.tecnologias > img {
+    width: 6%;
+}
+
+.botao-projetos {
+    align-self: center;
+    margin: 20px;
+}
+
+
+.button-3 {
+    padding: 12px;
+    width: 40%;
+    background-color: var(--cor3);
+    color: var(--cor0);
+    border: 2px solid #ffffff;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.button-3:focus {
+    outline: none;
+    border: 2px solid var(--cor3);
+    box-shadow: var(--cor3) 0px 0px 8px 0px;
+}
+
+.button-3:hover {
+    box-shadow: var(--cor3) 0px 0px 8px 0px;
+    cursor: pointer;
+}

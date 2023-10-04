@@ -1,0 +1,35 @@
+.header-bg {
+    background-color: var(--cor5);
+}
+
+.header-container{
+    display: flex;
+    flex-wrap:  wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 80px 0 80px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+
+}
+
+.header-menu a {
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+}
+
+
+@media (max-width: 800px) {
+    .header-menu {
+        display: none;
+    }
+}
+
