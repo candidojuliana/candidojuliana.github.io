@@ -71,3 +71,65 @@ input:hover, textarea:hover, .botao-forms:hover {
     box-shadow: var(--cor3) 0px 0px 8px 0px;
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    
+.formulario{
+    padding: 40px 0 40px 0;
+    width: 50vw;
+    margin-left: 35vw;
+}
+
+.formulario > h1 {
+    padding-bottom: 32px;
+}
+
+
+#email, #mensagem, #nome, #assunto {
+    width: 250px;
+    background-color: #d8d8d8;
+}
+
+#email, #nome, #assunto {
+    height: 40px;
+}
+
+#mensagem {
+    height: 140px;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+label {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--cor4);
+    margin: 0px;
+}
+
+.campo label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    border: 2px solid var(--cor3);
+    border-radius: 2px;
+}
+
+.botao-forms {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background: var(--cor4);
+}
+
+}
