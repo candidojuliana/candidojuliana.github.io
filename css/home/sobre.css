@@ -17,15 +17,9 @@ html {
     justify-content: center;
 }
 
-/* Media Queries para telas maiores */
-@media only screen and (min-width: 768px) {
-    .sobre-container {
-        padding: 80px 200px;
-    }
-}
 
-/* Media Queries para telas menores */
-@media only screen and (max-width: 767px) {
+
+@media (max-width: 767px) {
     .sobre-container {
         padding: 60px 20px;
     }

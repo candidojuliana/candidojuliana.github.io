@@ -79,3 +79,30 @@ section {
     box-shadow: var(--cor3) 0px 0px 8px 0px;
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .project {
+        display: block;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .projeto-container {
+        margin: auto;
+    }
+
+    .projeto-container > h3 {
+        text-align: center;
+    }
+
+    .tecnologias {
+        justify-content: center;
+    }
+
+    .button-3 {
+        width: 50%;
+        display: block;
+        margin: 0 auto 16px auto;
+        
+    }
+}

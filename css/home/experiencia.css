@@ -93,25 +93,7 @@ li {
     background: url('arrow3.svg');
 }
 
-/* Media Queries para telas maiores */
-@media only screen and (min-width: 768px) {
-    .experiencia-container {
-        grid-template-columns: .5fr 1fr;
-        gap: 80px;
-        padding: 40px 120px;
-    }
-
-    .direito, .esquerdo {
-        margin: 0;
-    }
-
-    .curriculo-comp {
-        margin-left: 80px;
-    }
-}
-
-/* Media Queries para telas menores */
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .experiencia-container {
         grid-template-columns: 1fr;
         gap: 40px;

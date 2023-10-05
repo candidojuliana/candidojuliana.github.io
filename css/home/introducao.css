@@ -72,25 +72,8 @@ h1::after {
     padding: 60px 60px 0px 60px;
 }
 
-/* Media Queries para telas maiores */
-@media only screen and (min-width: 768px) {
-  .introducao-container {
-      grid-template-columns: 1fr 1fr;
-      padding: 40px 120px;
-      text-align: left;
-  }
 
-  .texto-container {
-      padding: 60px 20px;
-  }
-
-  .imagem-container {
-      align-self: center;
-  }
-}
-
-/* Media Queries para telas menores */
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .introducao-container {
       grid-template-columns: 1fr;
       gap: 20px;

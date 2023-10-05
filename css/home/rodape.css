@@ -49,23 +49,27 @@
     margin: 0;
 }
 
-/* Media Queries para telas maiores */
-@media only screen and (min-width: 768px) {
-    .rodape {
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 40px 80px 20px 80px;
-    }
-    
-    .logo-rodape,
-    .contato-container,
-    .informacoes {
-        text-align: left;
-    }
-}
 
-/* Media Queries para telas menores */
-@media only screen and (max-width: 767px) {
+
+@media (max-width: 767px) {
     .rodape {
         padding: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .logo-rodape {
+        display: none;
+    }
+
+    .contato-container {
+        grid-column: 1;
+    }
+
+    .informacoes {
+        grid-column: 2;
+    }
+
+    .autoria {
+        text-align: center;
     }
 }
