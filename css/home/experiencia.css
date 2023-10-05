@@ -93,7 +93,23 @@ li {
     background: url('arrow3.svg');
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
+    .experiencia-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .direito, .esquerdo {
+        margin: 0;
+    }
+
+    .curriculo-comp {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px) {
     .experiencia-container {
         grid-template-columns: 1fr;
         gap: 40px;

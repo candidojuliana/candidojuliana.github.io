@@ -19,7 +19,18 @@ html {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
+    .sobre-container {
+        padding: 60px 20px;
+    }
+
+    .redes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
     .sobre-container {
         padding: 60px 20px;
     }

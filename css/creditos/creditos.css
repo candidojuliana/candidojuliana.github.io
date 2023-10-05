@@ -1,3 +1,7 @@
-.subtitulo {
+.creditos-container {
+    margin: auto;
+}
+
+.creditos-container > h3 {
     margin: auto;
 }

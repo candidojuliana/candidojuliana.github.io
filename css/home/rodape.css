@@ -51,7 +51,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .rodape {
         padding: 20px;
         grid-template-columns: 1fr 1fr;

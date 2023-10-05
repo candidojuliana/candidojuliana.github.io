@@ -80,7 +80,7 @@ section {
     cursor: pointer;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .project {
         display: block;
         gap: 20px;

@@ -73,7 +73,7 @@ h1::after {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .introducao-container {
       grid-template-columns: 1fr;
       gap: 20px;
@@ -82,5 +82,29 @@ h1::after {
 
   .texto-container {
       padding: 40px 20px;
+  }
+
+  .imagem-container > img {
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 140px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introducao-container {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+  }
+
+  .texto-container {
+      padding: 40px 20px;
+  }
+
+  .imagem-container > img {
+    max-width: 100%;
+    margin: auto;
+    align-self: flex-start;
   }
 }
